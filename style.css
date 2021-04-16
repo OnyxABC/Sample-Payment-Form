@@ -1,0 +1,143 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dela Gothic One', cursive;}
+
+body {
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    border: 10px solid #5AAC56;
+    margin: 0;
+    border-radius: 4%;
+}
+
+.wrapper h2 {
+    text-align: center;
+    padding: 25px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.input-box {
+    position: relative;
+}
+
+i.fa-user, i.fa-envelope {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+input[placeholder] {
+    text-align: center;
+}
+
+.input-box input {
+    width: 300px;
+    border: none;
+    border-radius: 2%;
+    padding: 15px;
+}
+
+.input-box input.dob {
+    width: 50px;
+    margin: auto;
+    padding: 10px;
+}
+
+.input-box h4{
+    margin-top: 50px;
+}
+
+.input-box .radio {
+    width: 10px;
+}
+
+.input-box input[type=tel].name {
+    width: 300px;
+    padding: 5px;
+}
+
+.input-box input[type=tel] {
+    width: 130px;
+    padding: 1px;
+}
+
+.input-box button[type=submit] {
+    background-color: greenyellow;
+    padding: 10px;
+    margin: 10px auto;
+    border: none;
+    font-weight: 900;
+}
+
+.input-box button[type=submit]:hover{
+    background-color: #10360e;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+
+   }
+
+    .wrapper h2 {
+        text-align: center;
+        padding: 25px;
+    }
+    
+    form {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .input-box input {
+        width: 100px;
+        border: none;
+        border-radius: 2%;
+        padding: 5px;
+    }
+    
+    .input-box input.dob {
+        width: 35px;
+        margin: auto;
+        padding: 2px;
+        font-size: 0.5rem;
+    }
+    
+    .input-box h4{
+        margin-top: 30px;
+    }
+    
+    .input-box .radio {
+        width: 50px;
+    }
+
+    .input-box .radio#bc1, .input-box .radio#bc2 {
+        width: 10px;
+    }
+    
+    .input-box input[type=tel].name {
+        width: 100px;
+        padding: 5px;
+    }
+    
+    .input-box input[type=tel] {
+        width: 100px;
+        padding: 5px;
+    }
+    
+    .input-box button[type=submit] {
+        background-color: greenyellow;
+        padding: 10px;
+        margin: 10px auto;
+        border: none;
+        font-weight: 900;
+    }
+}
